@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'lifecycle';
+
+  mostrar: boolean = true;
+  /* accion: string = 'Ocultar'; */
+
+ /*  mostrarBoton(){
+    this.mostrar = !this.mostrar;
+    if(this.mostrar !== true){
+      this.accion = 'Mostrar'
+    }else{
+      this.accion = 'Ocultar'
+    }
+  } */
 }
